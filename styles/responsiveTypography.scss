@@ -1,0 +1,127 @@
+// for small fonts
+$small-fontsize:(
+    null: 13px,
+    480px: 14px,
+    640px: 15px,
+    1024px: 16px,
+    1440PX: 17px,
+    2200px: 20px,
+);
+
+@mixin smallFontSize ($smallFs){
+    @each $smallFontBreakpoint, $smallfont in $smallFs {
+        @if $smallFontBreakpoint == null {
+           font-size: $smallfont; 
+        }
+        @else{
+            @media screen and (min-width: $smallFontBreakpoint){
+                font-size: $smallfont;
+            }
+        }
+        
+    }
+}
+
+
+// title fonts
+$title-fontsize:(
+    null: 22px,
+    480px: 30px,
+    640px: 35px,
+    992px: 39px,
+    1024px: 40px,
+    1400px: 42px,
+    2200px: 43px,
+    2500px: 47px
+);
+
+@mixin titleFontSize ($titleFs){
+    @each $titleFontBreakpoint, $titlefont in $titleFs {
+        @if $titleFontBreakpoint == null {
+           font-size: $titlefont; 
+        }
+        @else{
+            @media screen and (min-width: $titleFontBreakpoint){
+                font-size: $titlefont;
+            }
+        }
+        
+    }
+}
+
+// normal fonts
+$normal-fontsize:(
+    null: 14px,
+    480px: 15px,
+    640px: 16px,
+    992px: 17px,
+    1024px: 18px,
+    1400px: 19px,
+    2200px: 20px,
+    2500px: 21px
+);
+@mixin normalFontSize ($normalFs){
+    @each $normalFontBreakpoint, $normalfont in $normalFs {
+        @if $normalFontBreakpoint == null {
+           font-size: $normalfont; 
+        }
+        @else{
+            @media screen and (min-width: $normalFontBreakpoint){
+                font-size: $normalfont;
+            }
+        }
+        
+    }
+}
+
+$heading-fontsize:(
+    null: 38px,
+    480px: 50px,
+    640px: 45px,
+    839px: 43px, 
+    992px: 52px,
+    1024px: 60px,
+    1400px: 72px,
+    2200px: 75px,
+    2500px: 78px
+);
+@mixin headingFontSize ($headingFs){
+    @each $headingFontBreakpoint, $headingfont in $headingFs {
+        @if $headingFontBreakpoint == null {
+           font-size: $headingfont; 
+        }
+        @else{
+            @media screen and (min-width: $headingFontBreakpoint){
+                font-size: $headingfont;
+            }
+        }
+        
+    }
+}
+
+$action-fontsize:(
+    null: 35px,
+    480px: 50px,
+    640px: 40px,
+    783px: 40px,
+    839px: 43px, 
+    1009px: 48px,
+    1024px: 54px,
+    1400px: 56px,
+    2200px: 75px,
+    2500px: 78px
+);
+@mixin actionFontSize ($actionFs){
+    @each $actionFontBreakpoint, $actionfont in $actionFs {
+        @if $actionFontBreakpoint == null {
+           font-size: $actionfont; 
+        }
+        @else{
+            @media screen and (min-width: $actionFontBreakpoint){
+                font-size: $actionfont;
+            }
+        }
+        
+    }
+}
+

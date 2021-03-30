@@ -1,0 +1,1287 @@
+.Introduction {
+  background-color: #000000;
+}
+
+.introChild {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.name {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+@media screen and (min-width: 480px) {
+  .name {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .name {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .name {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .name {
+    font-size: 20px;
+  }
+}
+
+.line {
+  border-bottom: 1px solid white;
+  width: 8%;
+  padding: 0 0 4px;
+}
+
+.greetings {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 83px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 480px) {
+  .greetings {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .greetings {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 839px) {
+  .greetings {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .greetings {
+    font-size: 52px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .greetings {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .greetings {
+    font-size: 72px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .greetings {
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .greetings {
+    font-size: 78px;
+  }
+}
+
+.jobDescription {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 50px;
+  width: 65%;
+}
+
+@media screen and (min-width: 480px) {
+  .jobDescription {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .jobDescription {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .jobDescription {
+    font-size: 39px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .jobDescription {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .jobDescription {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .jobDescription {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .jobDescription {
+    font-size: 47px;
+  }
+}
+
+.myPhoto {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.callToAction {
+  background-color: #E5E5E5;
+}
+
+.line2 {
+  border-bottom: 1px solid #2F80ED;
+  width: 8%;
+  padding: 0 0 4px;
+}
+
+.whatIdo {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #2F80ED;
+}
+
+@media screen and (min-width: 480px) {
+  .whatIdo {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .whatIdo {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .whatIdo {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .whatIdo {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .whatIdo {
+    font-size: 20px;
+  }
+}
+
+.catchPhrase {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 50px;
+  width: 50vw;
+}
+
+@media screen and (min-width: 480px) {
+  .catchPhrase {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .catchPhrase {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .catchPhrase {
+    font-size: 39px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .catchPhrase {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .catchPhrase {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .catchPhrase {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .catchPhrase {
+    font-size: 47px;
+  }
+}
+
+.actionWords {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 72px;
+  color: #000000;
+}
+
+@media screen and (min-width: 480px) {
+  .actionWords {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .actionWords {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 783px) {
+  .actionWords {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 839px) {
+  .actionWords {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 1009px) {
+  .actionWords {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .actionWords {
+    font-size: 54px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .actionWords {
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .actionWords {
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .actionWords {
+    font-size: 78px;
+  }
+}
+
+.actionButton {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 41px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .actionButton {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .actionButton {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .actionButton {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .actionButton {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .actionButton {
+    font-size: 20px;
+  }
+}
+
+.block-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mySkillSet {
+  background-color: #000000;
+}
+
+.mySkills {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 480px) {
+  .mySkills {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .mySkills {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mySkills {
+    font-size: 39px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mySkills {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .mySkills {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .mySkills {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .mySkills {
+    font-size: 47px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+ul ::before {
+  color: #2F80ED;
+  content: "\272E";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+ul li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 0.8rem;
+}
+
+@media screen and (min-width: 480px) {
+  ul li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  ul li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  ul li {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  ul li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  ul li {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  ul li {
+    font-size: 21px;
+  }
+}
+
+.projects {
+  background-color: #FFFFFF;
+}
+
+.myProjects {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+@media screen and (min-width: 480px) {
+  .myProjects {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .myProjects {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .myProjects {
+    font-size: 39px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .myProjects {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .myProjects {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .myProjects {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .myProjects {
+    font-size: 47px;
+  }
+}
+
+.works {
+  width: auto;
+  padding: 2em;
+}
+
+.image-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 480px) {
+  .image-title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .image-title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .image-title {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .image-title {
+    font-size: 20px;
+  }
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.animate-image {
+  position: relative;
+}
+
+.img-anime {
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.overlay-text {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .overlay-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .overlay-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .overlay-text {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .overlay-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .overlay-text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .overlay-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .overlay-text {
+    font-size: 21px;
+  }
+}
+
+.animate-image:hover .img-anime {
+  opacity: 0.3;
+}
+
+.animate-image:hover .overlay-text {
+  opacity: 1;
+}
+
+.Experiences {
+  background-color: #F8F6FA;
+}
+
+.Experiences h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+@media screen and (min-width: 480px) {
+  .Experiences h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .Experiences h3 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .Experiences h3 {
+    font-size: 39px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Experiences h3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .Experiences h3 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .Experiences h3 {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .Experiences h3 {
+    font-size: 47px;
+  }
+}
+
+.time-frame {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+@media screen and (min-width: 480px) {
+  .time-frame {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .time-frame {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .time-frame {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .time-frame {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .time-frame {
+    font-size: 20px;
+  }
+}
+
+.work-place {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 480px) {
+  .work-place {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .work-place {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .work-place {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .work-place {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .work-place {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .work-place {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .work-place {
+    font-size: 21px;
+  }
+}
+
+.worked-as {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4F4F4F;
+}
+
+@media screen and (min-width: 480px) {
+  .worked-as {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .worked-as {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .worked-as {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .worked-as {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .worked-as {
+    font-size: 20px;
+  }
+}
+
+.work-activity {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4F4F4F;
+}
+
+@media screen and (min-width: 480px) {
+  .work-activity {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .work-activity {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .work-activity {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .work-activity {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .work-activity {
+    font-size: 20px;
+  }
+}
+
+.reachMe {
+  background-color: #E5E5E5;
+}
+
+.reachMe h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 50px;
+  width: 27vw;
+}
+
+@media screen and (min-width: 480px) {
+  .reachMe h5 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .reachMe h5 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .reachMe h5 {
+    font-size: 39px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reachMe h5 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .reachMe h5 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .reachMe h5 {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .reachMe h5 {
+    font-size: 47px;
+  }
+}
+
+.contactMe {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #000000;
+}
+
+@media screen and (min-width: 480px) {
+  .contactMe {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .contactMe {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contactMe {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .contactMe {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .contactMe {
+    font-size: 20px;
+  }
+}
+
+.contactLink {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+.hireMe textarea {
+  height: 10rem;
+  width: 27rem;
+  padding: 10px;
+  border: 1px solid #a59999;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.projectDetails {
+  font-family: 'Lato';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+@media screen and (min-width: 480px) {
+  .projectDetails {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .projectDetails {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projectDetails {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .projectDetails {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .projectDetails {
+    font-size: 20px;
+  }
+}
+
+.submit_mail {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .submit_mail {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .submit_mail {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .submit_mail {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440PX) {
+  .submit_mail {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .submit_mail {
+    font-size: 20px;
+  }
+}
+
+footer {
+  font-size: 14px;
+  background-color: #000000;
+}
+
+@media screen and (min-width: 480px) {
+  footer {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  footer {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  footer {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  footer {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  footer {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  footer {
+    font-size: 21px;
+  }
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.socialMediaImg {
+  height: 20px;
+  width: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .greetings {
+    padding: 0.5em 1px !important;
+  }
+  .actionWords {
+    line-height: 55px;
+    margin-bottom: 1.5rem !important;
+  }
+  .actionButton {
+    line-height: 25px;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 994px) {
+  .intro-container {
+    max-width: 92% !important;
+    padding: 1em;
+  }
+  .intro {
+    padding: 0 !important;
+  }
+  .works {
+    padding: 0.6em;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .reachMe h5 {
+    width: 33vw;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .catchPhrase {
+    width: 64vw !important;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 769px) {
+  .socialMediaLinks {
+    width: 35% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .jobDescription {
+    width: 82% !important;
+  }
+  .socialMediaLinks {
+    width: 35% !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hireMe textarea {
+    height: 8rem;
+    width: 20rem;
+  }
+  .catchPhrase {
+    width: 70vw !important;
+  }
+  .reachMe h5 {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro-container {
+    padding-top: 3em;
+  }
+  .intro {
+    padding-left: 3em;
+  }
+  .socialMediaLinks {
+    width: 24% !important;
+  }
+  .greetings {
+    line-height: 60px;
+  }
+  .skillList {
+    margin-bottom: 0;
+  }
+  .reachMe h5 {
+    width: auto;
+  }
+  .myContact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .socialMediaLinks {
+    width: 32% !important;
+  }
+  .works {
+    padding: 0;
+  }
+  .callToAction {
+    padding: 1em !important;
+  }
+  .catchPhrase {
+    width: 80vw !important;
+    line-height: 35px;
+  }
+  .Projects {
+    padding: 2em !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .myContact {
+    display: block;
+  }
+  .Projects {
+    padding: 1em !important;
+  }
+  .catchPhrase {
+    width: 100% !important;
+    line-height: 30px;
+  }
+  .jobDescription {
+    width: 100% !important;
+    line-height: 22px;
+  }
+  .greetings {
+    line-height: 47px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hireMe textarea {
+    height: 6em;
+    width: 15em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

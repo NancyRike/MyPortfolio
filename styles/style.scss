@@ -1,0 +1,418 @@
+$fontsize: 18px;
+$background-colour2: #F8F6FA;
+$grey-background: #E5E5E5;
+$section-heading: 36px;
+$small-fonts: 14px;
+@import "./responsiveTypography.scss";
+@mixin smallIcons {
+    height: 20px;
+    width: 15px;
+}
+@mixin smallfonts {
+    font-family: 'Lato';
+    font-style: normal;
+    @include smallFontSize($small-fontsize);
+    line-height: 19px;
+    // color: #000000;
+    
+}
+@mixin images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+@mixin titlefonts {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    @include titleFontSize($title-fontsize);
+    line-height: 50px;
+}
+@mixin normalfonts {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    @include normalFontSize($normal-fontsize);
+    line-height: 22px;
+}
+@mixin listStyle {
+    list-style: none;   
+}
+@mixin imageCard {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@mixin imageAnimation {
+    
+}
+.Introduction{
+    background-color: #000000;
+}
+.introChild{
+    color: white;
+    display: flex;
+}
+
+.name{
+    color: #FFFFFF;
+    font-weight: 400;
+    @include smallfonts();
+}
+.line{
+    border-bottom: 1px solid white;
+    width: 8%;
+    padding: 0 0 4px;
+}
+.greetings{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    @include headingFontSize($heading-fontsize);
+    line-height: 83px;
+    color: #FFFFFF;
+}
+.jobDescription{
+    color: #FFFFFF;
+    @include titlefonts();
+    width: 65%;
+}
+.myPhoto{
+    @include images();
+}
+.callToAction{
+    background-color:  #E5E5E5;
+}
+.line2{
+    border-bottom: 1px solid #2F80ED;
+    width: 8%;
+    padding: 0 0 4px;
+}
+.whatIdo{
+    @include smallfonts();
+    font-weight: 700;
+    color: #2F80ED
+}
+.catchPhrase{
+    @include titlefonts();
+    width: 50vw;
+}
+.actionWords{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    @include actionFontSize($action-fontsize);    
+    line-height: 72px;
+    color: #000000;
+}
+.actionButton{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    @include smallFontSize($small-fontsize);
+    line-height: 41px;
+    border-radius: 4px;
+}
+.block-image{
+    @include images();
+}
+.mySkillSet{
+    background-color: #000000;
+}
+.mySkills{
+    @include titlefonts();
+    color: #FFFFFF;
+}
+ul{
+    @include listStyle();
+    ::before{
+        color:#2F80ED;
+        content: "\272E";
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+    }
+    li{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        @include normalFontSize($normal-fontsize);
+        line-height: 22px;
+        color: #FFFFFF;
+        padding: 0.8rem;
+    }
+}
+.projects{
+   background-color: #FFFFFF;
+}
+.myProjects{
+    @include titlefonts();
+}
+.works{
+    width: auto;
+    padding: 2em;
+    // height: 340px;
+    // @include imageCard();
+    
+}
+.image-title{
+    @include smallfonts();
+    font-weight: 700;
+    }
+.project-image{
+    @include images();
+    // border-radius: 15px;
+}
+.animate-image{
+    position: relative;
+}
+.img-anime{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.overlay-text{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    @include normalfonts();
+    text-align: center;
+}
+ .animate-image:hover .img-anime{
+    opacity: 0.3;
+}
+.animate-image:hover .overlay-text{
+    opacity: 1;
+}
+.Experiences{
+    background-color: #F8F6FA;
+    h3{
+        @include titlefonts();
+        
+    }
+}
+.time-frame{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    @include smallFontSize($small-fontsize);
+    line-height: 19px;
+}
+.work-place{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    @include normalFontSize($normal-fontsize);
+    line-height: 22px;
+}
+.worked-as{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    @include smallFontSize($small-fontsize);
+    line-height: 19px;
+    color: #4F4F4F;
+}
+.work-activity{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    @include smallFontSize($small-fontsize);
+    line-height: 19px;
+    color: #4F4F4F;
+}
+.reachMe{
+    background-color: #E5E5E5;
+    h5{
+        @include titlefonts();
+        width: 27vw;
+    }
+}
+.contactMe{
+    @include smallfonts();
+    color: #000000;
+}
+.contactLink{
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+.hireMe{
+    textarea{
+        height: 10rem;
+        width: 27rem;
+        padding: 10px;
+        border: 1px solid #a59999;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+}
+.projectDetails{
+    @include smallfonts();
+}
+.submit_mail{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    @include smallFontSize($small-fontsize);
+    line-height: 25px;
+    border-radius: 4px;
+}
+footer{
+    @include normalFontSize($normal-fontsize);
+    background-color: #000000; 
+    a{
+        text-decoration: none;
+        color: white;
+        
+    }
+}
+.socialMediaImg{
+    @include smallIcons();
+}
+
+// media queries
+@media screen and (max-width:1000px){
+    .greetings{
+        padding: 0.5em 1px !important;
+    }
+    .actionWords{
+        line-height: 55px;
+        margin-bottom: 1.5rem !important;
+    }
+    .actionButton{
+        line-height: 25px;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 994px ){
+    .intro-container {
+        max-width: 92% !important;
+        padding: 1em;
+    }
+    .intro{
+        padding: 0 !important;
+    }
+    .works{
+        padding: 0.6em;
+    }
+}
+@media screen and (max-width: 1220px){
+    .reachMe h5{
+        width: 33vw;
+    }
+
+}
+@media screen and (max-width: 1210px){
+    .catchPhrase{
+        width: 64vw !important;
+    }
+    // .socialMediaLinks{
+    //     width: 35% !important;
+    // }
+}
+@media screen and (max-width: 1000px ) and (min-width:769px){
+    
+    .socialMediaLinks{
+        width: 35% !important;
+    }
+}
+@media screen and (max-width: 1000px ){
+    .jobDescription{
+        width: 82% !important;
+    }
+    .socialMediaLinks{
+        width: 35% !important;
+    }
+}
+    @media screen and (max-width:900px){
+    .hireMe textarea {
+        height: 8rem;
+        width: 20rem;
+    }
+    .catchPhrase{
+        width: 70vw !important;
+    }
+    .reachMe h5{
+        width: 40vw;
+    }
+}
+@media screen and (max-width:768px){
+    .intro-container{
+        padding-top: 3em;
+    }
+    .intro{
+        padding-left: 3em;
+    }
+    .socialMediaLinks{
+        width: 24% !important;
+    }
+    .greetings{
+        line-height: 60px;
+    }
+    .skillList{
+        margin-bottom: 0;
+    }
+    .reachMe h5{
+        width: auto;
+    }
+    .myContact{
+        display: flex;
+        padding-bottom: 1em;
+    }
+}
+@media screen and (max-width: 478px){
+    .socialMediaLinks{
+        width: 32% !important;
+    }
+    .works{
+        padding: 0;
+    }
+    .callToAction{
+        padding: 1em !important;
+    }
+    .catchPhrase{
+        width: 80vw !important;
+        line-height: 35px;
+    }
+    .Projects{
+        padding: 2em !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .myContact{
+        display: block;
+    }
+    .Projects{
+        padding: 1em !important;
+    }
+    .catchPhrase{
+        width: 100% !important;
+        line-height: 30px;
+    }
+    .jobDescription{
+        width: 100% !important;
+        line-height: 22px;
+    }
+    .greetings{
+        line-height: 47px;
+    }
+    .actionWords {
+       
+
+    }
+}
+@media screen and (max-width: 360px){
+    .hireMe{
+        textarea{
+            height: 6em;
+            width: 15em;
+        }
+    }
+}
