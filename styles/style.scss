@@ -85,7 +85,7 @@ $small-fonts: 14px;
 }
 .line2{
     border-bottom: 1px solid #2F80ED;
-    width: 8%;
+    width: 5%;
     padding: 0 0 4px;
 }
 .whatIdo{
@@ -366,6 +366,9 @@ footer{
         display: flex;
         padding-bottom: 1em;
     }
+    .work-experience{
+        padding: 0.5em 0;
+    }
 }
 @media screen and (max-width: 478px){
     .socialMediaLinks{
@@ -383,6 +386,24 @@ footer{
     }
     .Projects{
         padding: 2em !important;
+    }
+    .mySkills{
+        margin: 0.5em 0 !important;
+    }
+    ul{
+        padding-left: 0;
+    }
+    .Experiences{
+        padding: 1.5em !important;
+        h3{
+            line-height: 32px;
+        }
+    }
+    .myProjects{
+        line-height: 32px;
+    }
+    .image-title{
+        padding-top: 1.5em;
     }
 }
 @media screen and (max-width: 400px){
@@ -402,6 +423,11 @@ footer{
     }
     .greetings{
         line-height: 47px;
+    }
+    .reachMe{
+        h5{
+            line-height: 32px;
+        }
     }
     .actionWords {
        
