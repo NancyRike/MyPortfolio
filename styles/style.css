@@ -274,9 +274,15 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 72px;
   color: #000000;
+}
+
+@media screen and (min-width: 320px) {
+  .actionWords {
+    font-size: 35px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -1001,14 +1007,26 @@ ul li {
   text-decoration: none !important;
 }
 
+.input_mail {
+  border: none;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  width: 27em;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
 .hireMe textarea {
   height: 10rem;
   width: 27rem;
   padding: 10px;
-  border: 1px solid #a59999;
+  border: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
+  font-family: 'Inter';
+  font-size: 16px;
 }
 
 .projectDetails {
@@ -1184,7 +1202,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 1000px) and (min-width: 769px) {
+@media screen and (max-width: 1000px) {
   .socialMediaLinks {
     width: 35% !important;
   }
@@ -1200,6 +1218,9 @@ footer a {
 }
 
 @media screen and (max-width: 900px) {
+  .input_mail {
+    width: 20em;
+  }
   .hireMe textarea {
     height: 8rem;
     width: 20rem;
@@ -1212,10 +1233,13 @@ footer a {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro-container {
     padding-top: 3em;
   }
+}
+
+@media screen and (max-width: 768px) {
   .intro {
     padding-left: 3em;
   }
@@ -1303,9 +1327,15 @@ footer a {
 }
 
 @media screen and (max-width: 360px) {
+  .input_mail {
+    width: 15em;
+  }
   .hireMe textarea {
     height: 6em;
     width: 15em;
+  }
+  .socialMediaLinks {
+    width: 40% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -241,14 +241,26 @@ ul{
     color: #000000 !important;
     text-decoration: none !important;
 }
+.input_mail{
+    border: none;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    width: 27em;
+    font-family: 'Inter';
+    font-size: 16px;
+}
 .hireMe{
     textarea{
         height: 10rem;
         width: 27rem;
         padding: 10px;
-        border: 1px solid #a59999;
+        border: none;
+        // border: 1px solid #a59999;
         box-sizing: border-box;
         border-radius: 5px;
+        font-family: 'Inter';
+        font-size: 16px;
     }
 }
 .projectDetails{
@@ -317,7 +329,7 @@ footer{
     //     width: 35% !important;
     // }
 }
-@media screen and (max-width: 1000px ) and (min-width:769px){
+@media screen and (max-width: 1000px ){
     
     .socialMediaLinks{
         width: 35% !important;
@@ -332,6 +344,9 @@ footer{
     }
 }
     @media screen and (max-width:900px){
+    .input_mail{
+        width: 20em;
+    }
     .hireMe textarea {
         height: 8rem;
         width: 20rem;
@@ -343,10 +358,13 @@ footer{
         width: 40vw;
     }
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width:767px){
     .intro-container{
         padding-top: 3em;
     }
+}
+@media screen and (max-width: 768px){
     .intro{
         padding-left: 3em;
     }
@@ -435,10 +453,16 @@ footer{
     // }
 }
 @media screen and (max-width: 360px){
+    .input_mail{
+        width: 15em;
+    }
     .hireMe{
         textarea{
             height: 6em;
             width: 15em;
         }
+    }
+    .socialMediaLinks {
+        width: 40% !important;
     }
 }

@@ -25,9 +25,9 @@
                         <h2 class="greetings py-5">Hello, My Name Is Nancy</h2>
                         <p class="jobDescription">I am a front-End Developer</p>
                         <div class="socialMediaLinks w-25 pt-4 d-flex justify-content-between">
-                            <img src=".//Assets/icons/linkedIn_icon.svg" alt="">
-                            <img src="./Assets/icons/Twiter_icon.svg" alt="">
-                            <img src="./Assets/icons/github_icon.svg" alt="">
+                            <a href="https://www.linkedin.com/in/nancy-rike-926198174/"><img src=".//Assets/icons/linkedIn_icon.svg" alt=""></a>
+                            <a href=""><img src="./Assets/icons/Twiter_icon.svg" alt=""></a>
+                            <a href="https://github.com/NancyRike"><img src="./Assets/icons/github_icon.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -168,7 +168,7 @@
                                     A legal ecosystem that brings together all the players within the legal 
                                     services industry. Increasing access to justice at the push of a button.
                                 </p>
-                                <a href="www.biaframemories.org">Click to view</a>
+                                <a href="https://www.lawyerpp.com/">Click to view</a>
                             </div>
                         </div>
                         <figure class="text-center image-title">Lawyer App</figure>
@@ -207,7 +207,7 @@
                         <div class="d-flex align-items-center contactMe my-3">
                             <img src="Assets/icons/phone_icon.svg" alt="">
                             <p class="mb-0 mx-3">
-                                <a href="tel:09036034308" class="contactLink">+234 9036034308</a>
+                                <a href="tel:09036034308" class="contactLink">+(234) 9036034308</a>
                                 </p>
                         </div>
                         <div class="d-flex align-items-center contactMe my-3">
@@ -220,9 +220,12 @@
                 </div>
                 <div class="col-md-6 hireMe">
                     <form action="">
-                        <label class="projectDetails d-block pb-3"> Tell me about your project</label>
-                        <textarea name="" id="" class="projectDescription" placeholder="Describe your project"></textarea>
-                        <button class="btn btn-primary submit_mail mt-4 d-block px-3" onclick="contactMe()">CONTACT ME</button>
+                        <div class="form-group">
+                            <label class="projectDetails d-block pb-3"> Tell me about your project</label>
+                            <input type="text" placeholder="Enter your Email Address" class="form-contrl input_mail">
+                            <textarea name="" id="" class=" form-control" placeholder="Describe your project"></textarea>
+                        </div>
+                        <button class="btn btn-primary submit_mail mt-4 d-block px-3" onclick="contactMe()">Send</button>
                     </form>
                 </div>
             </div>
