@@ -241,24 +241,33 @@ ul{
     color: #000000 !important;
     text-decoration: none !important;
 }
+.cardBody{
+    background-image: url(../Assets//images/laptopImg.jpg);
+    background-repeat: round;
+}
+.glassLook{
+    color: #fff;
+    margin: auto;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
 .input_mail{
     border: none;
     padding: 8px;
     margin-bottom: 12px;
-    border-radius: 4px;
-    width: 27em;
+    border-radius: 15px;
     font-family: 'Inter';
     font-size: 16px;
+    
 }
 .hireMe{
     textarea{
         height: 10rem;
-        width: 27rem;
         padding: 10px;
         border: none;
-        // border: 1px solid #a59999;
         box-sizing: border-box;
-        border-radius: 5px;
+        border-radius: 25px;
         font-family: 'Inter';
         font-size: 16px;
     }
@@ -273,6 +282,11 @@ ul{
     @include smallFontSize($small-fontsize);
     line-height: 25px;
     border-radius: 4px;
+    color: #fff;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(177, 21, 21, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
 }
 footer{
     @include normalFontSize($normal-fontsize);
@@ -289,9 +303,6 @@ footer{
 
 // media queries
 @media screen and (max-width:1000px){
-    .greetings{
-        padding: 0.5em 1px !important;
-    }
     .actionWords{
         line-height: 55px;
         margin-bottom: 1.5rem !important;
@@ -325,12 +336,8 @@ footer{
     .catchPhrase{
         width: 64vw !important;
     }
-    // .socialMediaLinks{
-    //     width: 35% !important;
-    // }
 }
 @media screen and (max-width: 1000px ){
-    
     .socialMediaLinks{
         width: 35% !important;
     }
@@ -366,10 +373,10 @@ footer{
 }
 @media screen and (max-width: 768px){
     .intro{
-        padding-left: 3em;
+        padding-left: 2em;
     }
     .socialMediaLinks{
-        width: 24% !important;
+        width: 30% !important;
     }
     .greetings{
         line-height: 60px;
@@ -403,7 +410,7 @@ footer{
         line-height: 35px;
     }
     .Projects{
-        padding: 2em !important;
+        padding: 0em !important;
     }
     .mySkills{
         margin: 0.5em 0 !important;
@@ -411,11 +418,20 @@ footer{
     ul{
         padding-left: 0;
     }
+    .hireForm{
+        width: 90% !important;
+    }
     .Experiences{
         padding: 1.5em !important;
         h3{
             line-height: 32px;
         }
+    }
+    .projectList{
+        margin: 0 !important;
+    }
+    .overlay-text{
+        width: 90%;
     }
     .myProjects{
         line-height: 32px;
@@ -429,7 +445,7 @@ footer{
         display: block;
     }
     .Projects{
-        padding: 1em !important;
+        padding: 0 !important;
     }
     .catchPhrase{
         width: 100% !important;
@@ -447,12 +463,17 @@ footer{
             line-height: 32px;
         }
     }
-    // .actionWords {
-       
-
-    // }
+    .project{
+        padding: 0 !important;
+    }
+    .projectNames{
+         padding: 0 !important;
+    }
 }
 @media screen and (max-width: 360px){
+    .intro{
+        padding-left: 1em;
+    }
     .input_mail{
         width: 15em;
     }
