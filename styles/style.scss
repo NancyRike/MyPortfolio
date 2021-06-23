@@ -12,9 +12,7 @@ $small-fonts: 14px;
     font-family: 'Lato';
     font-style: normal;
     @include smallFontSize($small-fontsize);
-    line-height: 19px;
-    // color: #000000;
-    
+    line-height: 19px;    
 }
 @mixin images {
     width: 100%;
@@ -152,9 +150,6 @@ ul{
 .works{
     width: auto;
     padding: 2em;
-    // height: 340px;
-    // @include imageCard();
-    
 }
 .image-title{
     @include smallfonts();
@@ -236,6 +231,9 @@ ul{
 .contactMe{
     @include smallfonts();
     color: #000000;
+}
+.contactCall{
+    padding-left: 5em;
 }
 .contactLink{
     color: #000000 !important;
@@ -358,6 +356,9 @@ footer{
         height: 8rem;
         width: 20rem;
     }
+    .contactCall{
+        padding-left: 1.5em;
+    }
     .catchPhrase{
         width: 70vw !important;
     }
@@ -369,6 +370,31 @@ footer{
 @media screen and (max-width:767px){
     .intro-container{
         padding-top: 3em;
+    }
+    .contactCall{
+        padding-left: 1em;
+        width: 61%;
+        padding-top: 2em;
+    }
+}
+@media screen and (max-width:695px){
+    .contactCall{
+        width: 71%;
+    }
+}
+@media screen and (max-width:571px){
+    .contactCall{
+        width: 79%;
+    }
+}
+@media screen and (max-width:522px){
+    .contactCall{
+        width: 81%;
+    }
+}
+@media screen and (max-width:510px){
+    .contactCall{
+        width: 100%;
     }
 }
 @media screen and (max-width: 768px){
